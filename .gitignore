@@ -1,0 +1,29 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# misc
+.DS_Store
+npm-debug.log*
+# umi
+.umi
+.umi-production
+.vscode/settings.json
+# dependencies
+/node_modules
+# testing
+/coverage
+/package-lock.json
+# production
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+yarn-debug.log*
+*.iws
+*.iml
+*.ipr
+*svn/
+.idea/
+/build/*
+/dist/*
+.temp/*
